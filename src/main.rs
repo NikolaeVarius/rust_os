@@ -34,6 +34,8 @@ fn panic(_info: &PanicInfo) -> ! {
 // esxtern "C" forces compiler to use C calling convention. _start is the default entry point name for most systems
 // ! is because this is never returning/or called by a function, it is invoked directly by the OS
 pub extern "C" fn _start() -> ! {
+    // this function is the entry point, since the linker looks for a function
+    // named `_start` by default
     loop {}
 }
 

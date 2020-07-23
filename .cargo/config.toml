@@ -1,0 +1,3 @@
+# allows to recompile core and other standard library crates on demand
+[unstable]
+build-std = ["core", "compiler_builtins"]
