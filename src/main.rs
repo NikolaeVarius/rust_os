@@ -46,3 +46,6 @@ pub extern "C" fn _start() -> ! {
 // rustup target add thumbv7em-none-eabihf
 
 // cargo build --target thumbv7em-none-eabihf
+
+// 
+extern crate rlibc;
