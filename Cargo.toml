@@ -9,6 +9,7 @@ edition = "2018"
 [dependencies]
 # Adds needed functions
 rlibc = "1.0.0"
+bootloader = "0.9.8"
 
 [profile.dev]
 panic = "abort"
